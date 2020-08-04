@@ -1,5 +1,5 @@
 public class CircularBuffer {
-    private int bufferSize = 10; // 1.1
+    private final int bufferSize; // 1.1
     private final String[] buffer;
     private int readPointer;
     private int writePointer;
